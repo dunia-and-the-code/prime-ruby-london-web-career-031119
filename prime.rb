@@ -1,4 +1,8 @@
 def prime?(int)
-  (2...int).each { |counter| int % counter == 0 }
+  if int <= 1 
+    return false
+      else
+        
+  (2..int).each { |counter| int % counter == 0 }
   return false
  end
